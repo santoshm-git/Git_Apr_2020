@@ -1,0 +1,88 @@
+{
+	"Resources":{
+		"vpc1":{
+			"Type": "AWS::EC2::VPC",
+			"Properties": {
+				"CidrBlock": "10.0.0.0/24"
+			}
+		},
+		"Subnet1":{
+			"Type": "AWS::EC2::Subnet",
+			"Properties":{
+				"AvailabilityZone": "ap-southeast-1a",
+				"CidrBlock": "10.0.0.0/25",
+				"MapPublicIpOnLaunch": "true",
+				"VpcId": {"Ref": "vpc1"}
+			}
+		},
+		"Subnet2":{
+			"Type": "AWS::EC2::Subnet",
+			"Properties":{
+				"AvailabilityZone": "ap-southeast-1b",
+				"CidrBlock": "10.0.0.128/25",
+				"VpcId": {"Ref": "vpc1"}
+			}
+		},
+		"InternetGatway1":{
+			"Type": "AWS::EC2::InternetGateway"
+		},
+		"vpcGatwayAttach":{
+			"Type": "AWS::EC2::VPCGatewayAttachment",
+			"Properties":{
+				"InternetGatewayId": {"Ref": "InternetGatway1"},
+				"VpcId" : {"Ref": "vpc1"}
+			}
+		},
+		"RouteTable1":{
+			"Type": "AWS::EC2::RouteTable",
+			"Properties":{
+				"VpcId": {"Ref": "vpc1"}
+			}
+		},
+		"AttachInternetGatway":{
+			"Type": "AWS::EC2::Route",
+			"Properties":{
+				"RouteTableId": {"Ref": "RouteTable1"},
+				"DestinationCidrBlock": "0.0.0.0/24",
+				"GatewayId": {"Ref": "InternetGatway1"}
+			}
+		},
+		"PublicSubnet1":{
+			"Type": "AWS::EC2::SubnetRouteTableAssociation",
+			"Properties":{
+				"RouteTableId": {"Ref": "RouteTable1"},
+				"SubnetId": {"Ref": "Subnet1"}
+			}
+		},
+		"Instance1":{
+			"Type": "AWS::EC2::Instance",
+			"Properties": {
+				"ImageId": "ami-09a4a9ce71ff3f20b",
+				"InstanceType": "t2.micro",
+				"AvailabilityZone": "ap-southeast-1a",
+				"SubnetId": {"Ref": "Subnet1"}				
+			}
+		}
+		
+	},
+	"Outputs":{
+		"VpcName":{
+			"Value":{"Ref": "vpc1"}
+		},
+		"Subnet1Details":{
+			"Value": {"Ref":"Subnet1"},
+			"Export":{
+				"Name":"PublicSubnet"
+			}
+		},
+		"Subnet2Details":{
+			"Value":{"Ref":"Subnet2"},
+			"Export":{
+				"Name": "PrivateSubnet"
+			}
+		},
+		"igw": {
+			"Value":{"Ref": "InternetGatway1"}
+		}
+	}
+}
