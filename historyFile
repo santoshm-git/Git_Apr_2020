@@ -1,0 +1,500 @@
+   54  ssh ubuntu@52.221.207.132
+   55  clear
+   56  ssh ubuntu@52.221.207.132
+   57  ssh ubuntu@52.74.42.53
+   58  clear
+   59  ssh ubuntu@52.221.207.132
+   60  exit
+   61  ls
+   62  clear
+   63  cd Downloads/
+   64  ssh ubuntu@13.250.46.240
+   65  ssh ubuntu@13.233.237.131
+   66  ssh ec2-user@13.233.237.131
+   67  ssh root@13.233.237.131
+   68  ssh root@13.233.237.131
+   69  ssh root@13.233.237.131
+   70  clear
+   71  ssh root@13.233.237.131
+   72  clear
+   73  ssh ubuntu@13.233.237.131
+   74  ssh root@13.233.237.131
+   75  ssh ec2-user@13.233.237.131
+   76  cd Downloads/
+   77  ssh ubuntu@3.0.55.107
+   78  ssh ubuntu@3.0.145.237
+   79  ssh ubuntu@192.168.0.175
+   80  clear
+   81  ssh ubuntu@3.1.133.31
+   82  ssh ubuntu@3.0.55.107
+   83  ssh ubuntu@3.0.55.107
+   84  clear
+   85  ssh ubuntu@3.0.55.107
+   86  ssh ubuntu@18.140.56.9
+   87  ssh root@18.140.56.9
+   88  clear
+   89  ssh root@3.0.55.107
+   90  ssh ubuntu@18.140.56.9
+   91  clear
+   92  ssh ubuntu@3.0.55.107
+   93  ssh ubuntu@10.0.0.107
+   94  ssh ubuntu@18.140.56.9
+   95  ssh ubuntu@3.0.55.107
+   96  ssh ubuntu@3.0.55.107
+   97  clear
+   98  exit
+   99  ssh -i "askp.pem" ec2-user@ec2-18-140-60-84.ap-southeast-1.compute.amazonaws.com
+  100  exit
+  101  cd Downloads/
+  102  clear
+  103  ssh -i "docker_kp1.pem" ubuntu@ec2-54-158-218-244.compute-1.amazonaws.com
+  104  exit
+  105  cd download
+  106  cd Downloads/
+  107  pwd
+  108  clwar
+  109  clear
+  110  ssh -i "docker_kp1.pem" ubuntu@ec2-52-23-248-156.compute-1.amazonaws.com
+  111  cd Desktop/
+  112  pwd
+  113  cd ..
+  114  cd Downloads/
+  115  pwd
+  116  ssh -i "lb_kp.pem" ubuntu@ec2-54-255-173-193.ap-southeast-1.compute.amazonaws.com
+  117  exit
+  118  ssh -i "lb_kp.pem" ubuntu@ec2-54-255-173-193.ap-southeast-1.compute.amazonaws.com
+  119  ls -l
+  120  exit
+  121  cd Desktop/
+  122  ssh -i "lb_kp1.pem" ubuntu@ec2-54-169-33-68.ap-southeast-1.compute.amazonaws.com
+  123  clear
+  124  exit
+  125  cd Downloads/
+  126  ssh -i "lb_kp1.pem" ubuntu@ec2-13-250-118-222.ap-southeast-1.compute.amazonaws.com
+  127  exit
+  128  ssh -i "lb_kp1.pem" ubuntu@ec2-13-250-118-222.ap-southeast-1.compute.amazonaws.com
+  129  clear
+  130  ssh -i "lb_kp1.pem" ubuntu@ec2-54-169-33-68.ap-southeast-1.compute.amazonaws.com
+  131  exit
+  132  cd Downloads/
+  133  ssh -i "lb_kp1.pem" ubuntu@ec2-54-169-33-68.ap-southeast-1.compute.amazonaws.com
+  134  ssh -i "lb_kp1.pem" ubuntu@ec2-54-169-33-68.ap-southeast-1.compute.amazonaws.com
+  135  ssh -i "lb_kp1.pem" ubuntu@ec2-13-250-118-222.ap-southeast-1.compute.amazonaws.com
+  136  exit
+  137  cd down
+  138  cd Downloads/
+  139  cls
+  140  clear
+  141  ssh -i "docker_kp1.pem" ubuntu@ec2-34-238-136-94.compute-1.amazonaws.com
+  142  ssh -i "docker_kp1.pem" ubuntu@ec2-34-238-136-94.compute-1.amazonaws.com
+  143  exit
+  144  ssh -i "docker_kp1.pem" ubuntu@ec2-34-238-136-94.compute-1.amazonaws.com
+  145  ls -l
+  146  ls 
+  147  clear
+  148  ssh -i "docker_kp1.pem" ubuntu@ec2-34-238-136-94.compute-1.amazonaws.com
+  149  ssh -i "docker_kp.pem" ubuntu@ec2-3-93-150-226.compute-1.amazonaws.com
+  150  clear
+  151  ssh -i "docker_kp.pem" ubuntu@ec2-3-93-150-226.compute-1.amazonaws.com
+  152  exit
+  153  ssh -i "docker_kp.pem" ubuntu@ec2-3-93-150-226.compute-1.amazonaws.com
+  154  exit
+  155  ssh -i "docker_kp.pem" ubuntu@ec2-52-90-180-75.compute-1.amazonaws.com
+  156  exit
+  157  cd Downloads/
+  158  ssh -i "docker_kp.pem" ubuntu@ec2-52-90-180-75.compute-1.amazonaws.com
+  159  clear
+  160  ssh -i "docker_kp.pem" ubuntu@ec2-52-90-180-75.compute-1.amazonaws.com
+  161  ssh -i "docker_kp.pem" ubuntu@ec2-52-90-180-75.compute-1.amazonaws.com
+  162  clear
+  163  ssh -i "docker_kp.pem" ubuntu@ec2-52-90-180-75.compute-1.amazonaws.com
+  164  ssh -i "docker_kp.pem" ubuntu@ec2-52-90-180-75.compute-1.amazonaws.com
+  165  cd Downloads/
+  166  ssh -i "docker_kp.pem" ubuntu@ec2-52-90-180-75.compute-1.amazonaws.com
+  167  docker ps -s
+  168  docker ps -a
+  169  clear
+  170  ssh -i "docker_kp.pem" ubuntu@ec2-52-90-180-75.compute-1.amazonaws.com
+  171  exit
+  172  ssh -i "docker_kp1.pem" ubuntu@ec2-54-83-166-142.compute-1.amazonaws.com
+  173  yes
+  174  clear
+  175  ssh -i "docker_kp1.pem" ubuntu@ec2-54-83-166-142.compute-1.amazonaws.com
+  176  clear
+  177  ssh -i "docker_kp.pem" ubuntu@ec2-54-147-100-196.compute-1.amazonaws.com
+  178  ssh -i "docker_kp.pem" ubuntu@ec2-54-147-100-196.compute-1.amazonaws.com
+  179  ssh -i "docker_kp.pem" ubuntu@ec2-54-147-100-196.compute-1.amazonaws.com
+  180  exit
+  181  ssh -i "docker_kp.pem" ubuntu@ec2-3-90-37-255.compute-1.amazonaws.com
+  182  ssh -i "docker_kp.pem" ubuntu@ec2-3-90-37-255.compute-1.amazonaws.com
+  183  ssh -i "docker_kp.pem" ubuntu@ec2-3-90-37-255.compute-1.amazonaws.com
+  184  ssh -i "docker_kp.pem" ubuntu@ec2-3-90-37-255.compute-1.amazonaws.com
+  185  exit
+  186  cd Downloads/
+  187  ssh -i "lb_kp1.pem" ubuntu@ec2-13-251-63-162.ap-southeast-1.compute.amazonaws.com
+  188  clear
+  189  ssh -i "lb_kp1.pem" ubuntu@ec2-13-229-197-72.ap-southeast-1.compute.amazonaws.com
+  190  exit
+  191  cd Downloads/
+  192  ssh -i "lb_kp.pem" ubuntu@ec2-54-251-138-219.ap-southeast-1.compute.amazonaws.com
+  193  ssh -i "lb_kp.pem" ubuntu@ec2-54-251-138-219.ap-southeast-1.compute.amazonaws.com
+  194  clear
+  195  ssh -i "lb_kp1.pem" ubuntu@ec2-13-250-1-192.ap-southeast-1.compute.amazonaws.com
+  196  exit
+  197  ssh -i "docker_kp.pem" ubuntu@ec2-54-198-45-73.compute-1.amazonaws.com
+  198  exit
+  199  cd Downloads/
+  200  pwd
+  201  ssh -i "docker_kp.pem" ubuntu@ec2-54-197-216-155.compute-1.amazonaws.com
+  202  exit
+  203  ssh -i "docker_kp.pem" ubuntu@ec2-54-172-13-119.compute-1.amazonaws.com
+  204  ssh -i "docker_kp.pem" ubuntu@ec2-54-172-13-119.compute-1.amazonaws.com
+  205  ssh -i "docker_kp.pem" ubuntu@ec2-54-172-13-119.compute-1.amazonaws.com
+  206  exit
+  207  pwd
+  208  cd h/
+  209  cd h
+  210  cd hpwd
+  211  clear
+  212  pwd
+  213  cd..
+  214  pwd
+  215  cd ..
+  216  pwd
+  217  cd ..
+  218  pwd
+  219  cd ..
+  220  pwd
+  221  cd h.
+  222  cd h/
+  223  cd c:
+  224  cd h:
+  225  cd E:
+  226  pwd
+  227  mkdir docker-compose
+  228  cd docker-compose/
+  229  pwd
+  230  clear
+  231  pwd
+  232  ls 
+  233  ls -ltr
+  234  clear
+  235  vim mysql-wordpress.yml
+  236  cat mysql-wordpress.yml 
+  237  vim mysql-wordpress.yml 
+  238  pwd
+  239  ls
+  240  ls -l
+  241  cat mysql-wordpress.yml 
+  242  exit
+  243  cd Downloads/
+  244  ssh -i "docker_kp.pem" ubuntu@ec2-18-205-24-216.compute-1.amazonaws.com
+  245  docker images
+  246  pwd
+  247  clear
+  248  ssh -i "docker_kp.pem" ubuntu@ec2-18-205-24-216.compute-1.amazonaws.com
+  249  clear
+  250  ssh -i "docker_kp.pem" ubuntu@ec2-52-87-234-95.compute-1.amazonaws.com
+  251  exit
+  252  cd Downloads/
+  253  ssh -i "docker_kp.pem" ubuntu@ec2-18-206-156-162.compute-1.amazonaws.com
+  254  exit
+  255  cd Downloads/
+  256  ssh -i "docker_kp.pem" ubuntu@ec2-3-85-11-102.compute-1.amazonaws.com
+  257  ssh -i "docker_kp.pem" ubuntu@ec2-3-85-11-102.compute-1.amazonaws.com
+  258  ssh -i "docker_kp.pem" ubuntu@ec2-35-175-238-118.compute-1.amazonaws.com
+  259  clear
+  260  ssh -i "docker_kp.pem" ubuntu@ec2-3-85-11-102.compute-1.amazonaws.com
+  261  ssh -i "docker_kp.pem" ubuntu@ec2-35-175-238-118.compute-1.amazonaws.com
+  262  exit
+  263  cd Downloads/
+  264  ssh -i "docker_kp.pem" ubuntu@ec2-52-0-116-208.compute-1.amazonaws.com
+  265  ssh -i "docker_kp.pem" ubuntu@ec2-52-0-116-208.compute-1.amazonaws.com
+  266  ssh -i "docker_kp.pem" ubuntu@ec2-52-0-116-208.compute-1.amazonaws.com
+  267  exit
+  268  cd Downloads/
+  269  ssh -i "docker_kp.pem" ubuntu@ec2-54-89-17-235.compute-1.amazonaws.com
+  270  ssh -i "docker_kp.pem" ubuntu@ec2-54-89-17-235.compute-1.amazonaws.com
+  271  ssh -i "docker_kp.pem" ubuntu@ec2-54-89-17-235.compute-1.amazonaws.com
+  272  cd Downloads/
+  273  ssh -i "docker_kp.pem" ubuntu@ec2-54-175-2-29.compute-1.amazonaws.com
+  274  ssh -i "docker_kp.pem" ubuntu@ec2-54-198-100-210.compute-1.amazonaws.com
+  275  ssh -i "docker_kp.pem" ubuntu@ec2-54-175-2-29.compute-1.amazonaws.com
+  276  ssh -i "docker_kp.pem" ubuntu@ec2-54-198-100-210.compute-1.amazonaws.com
+  277  ssh -i "docker_kp.pem" ubuntu@ec2-54-175-2-29.compute-1.amazonaws.com
+  278  clear
+  279  ssh -i "docker_kp.pem" ubuntu@ec2-54-198-100-210.compute-1.amazonaws.com
+  280  exit
+  281  cd Downloads/
+  282  ssh -i "docker_kp.pem" ubuntu@ec2-54-89-17-235.compute-1.amazonaws.com
+  283  exit
+  284  cd Downloads/
+  285  ssh -i "docker_kp.pem" ubuntu@ec2-18-212-117-96.compute-1.amazonaws.com
+  286  ssh -i "docker_kp.pem" ubuntu@ec2-18-212-117-96.compute-1.amazonaws.com
+  287  cd Downloads/
+  288  ssh -i "docker_kp.pem" ubuntu@ec2-18-212-117-96.compute-1.amazonaws.com
+  289  cd Downloads/
+  290  ssh -i "docker_kp.pem" ubuntu@ec2-54-162-73-83.compute-1.amazonaws.com
+  291  ssh -i "docker_kp.pem" ubuntu@ec2-54-162-73-83.compute-1.amazonaws.com
+  292  ssh -i "docker_kp.pem" ubuntu@ec2-18-215-244-226.compute-1.amazonaws.com
+  293  ssh -i "docker_kp.pem" ubuntu@ec2-54-162-73-83.compute-1.amazonaws.com
+  294  ssh -i "docker_kp.pem" ubuntu@ec2-18-215-244-226.compute-1.amazonaws.com
+  295  ssh -i "docker_kp.pem" ubuntu@ec2-18-215-244-226.compute-1.amazonaws.com
+  296  ssh -i "docker_kp.pem" ubuntu@ec2-18-212-117-96.compute-1.amazonaws.com
+  297  ssh -i "docker_kp.pem" ubuntu@ec2-18-212-117-96.compute-1.amazonaws.com
+  298  cd Downloads/
+  299  ssh -i "docker_kp.pem" ubuntu@ec2-54-145-173-84.compute-1.amazonaws.com
+  300  ssh -i "docker_kp.pem" ubuntu@ec2-54-145-173-84.compute-1.amazonaws.com
+  301  ssh -i "docker_kp.pem" ubuntu@ec2-54-145-173-84.compute-1.amazonaws.com
+  302  ssh -i "docker_kp.pem" ubuntu@ec2-54-145-173-84.compute-1.amazonaws.com
+  303  exit
+  304  cd Downloads/
+  305  ssh -i "docker_kp.pem" ubuntu@ec2-54-162-204-211.compute-1.amazonaws.com
+  306  ssh -i "docker_kp.pem" ubuntu@ec2-54-162-204-211.compute-1.amazonaws.com
+  307  ssh -i "docker_kp.pem" ubuntu@ec2-34-201-163-195.compute-1.amazonaws.com
+  308  ssh -i "docker_kp.pem" ubuntu@ec2-34-201-163-195.compute-1.amazonaws.com
+  309  ssh -i "docker_kp.pem" ubuntu@ec2-54-162-204-211.compute-1.amazonaws.com
+  310  exit
+  311  cd down
+  312  cd Downloads/
+  313  ssh -i "kp1.pem" ubuntu@ec2-54-255-233-52.ap-southeast-1.compute.amazonaws.com
+  314  ssh -i "kp1.pem" ubuntu@ec2-54-255-233-52.ap-southeast-1.compute.amazonaws.com
+  315  ssh -i "kp1.pem" ubuntu@ec2-54-255-233-52.ap-southeast-1.compute.amazonaws.com
+  316  exit
+  317  pwd
+  318  terraform init
+  319  terraform init
+  320  exit
+  321  pwd
+  322  terraform init
+  323  cd ..
+  324  terraform init
+  325  exit
+  326  pwd
+  327  terraform init
+  328  pwd
+  329  terraform init
+  330  pwd
+  331  Terraform --version
+  332  terraform init
+  333  clear
+  334  Terraform --version
+  335  terraform init
+  336  terraform --version
+  337  terraform init
+  338  terraform --version
+  339  terraform init
+  340  clear
+  341  ls -la
+  342  cd vpc
+  343  ls -la
+  344  terraform validate
+  345  clear
+  346  terraform validate
+  347  ls -ar
+  348  ls -la
+  349  terraform apply
+  350  clear
+  351  terraform validate
+  352  terraform apply
+  353  clear
+  354  terraform validate
+  355  terraform apply
+  356  clear
+  357  terraform validate
+  358  terraform apply
+  359  terraform apply
+  360  terraform validate
+  361  terraform validate
+  362  terraform apply
+  363  clear
+  364  terraform validate
+  365  terraform validate
+  366  terraform apply
+  367  terraform apply
+  368  clear
+  369  exit
+  370  ls -ar
+  371  ls -la
+  372  clear
+  373  terraform validate
+  374  terraform apply
+  375  terraform validate
+  376  terraform apply
+  377  terraform apply -target=aws_route.igwrtAttach
+  378  exit
+  379  terraform validate
+  380  terraform apply
+  381  terraform validate
+  382  terraform validate
+  383  clear
+  384  terraform help
+  385  terraform refresh
+  386  terraform debug
+  387  terraform apply
+  388  terraform destroy
+  389  exit
+  390  ls
+  391  terraform validate
+  392  terraform apply
+  393  terraform validate
+  394  terraform validate
+  395  terraform apply
+  396  terraform validate
+  397  terraform apply
+  398  terraform help
+  399  terraform destory
+  400  terraform destroy
+  401  clear
+  402  exit
+  403  ls
+  404  ls -l
+  405  terraform validate
+  406  ls -l
+  407  terraform apply
+  408  cat terraform.tfvars 
+  409  terraform apply
+  410  terraform apply
+  411  clear
+  412  ls -l
+  413  cat terraform.tfvars 
+  414  terraform apply
+  415  terraform apply
+  416  ls -l
+  417  ls -l
+  418  clear
+  419  cat terraform.tfvars 
+  420  terraform apply
+  421  ls -l
+  422  terraform validate
+  423  terraform validate
+  424  terraform validate
+  425  terraform validate
+  426  terraform validate
+  427  terraform validate
+  428  terraform validate
+  429  terraform validate
+  430  terraform validate
+  431  terraform apply
+  432  terraform apply
+  433  terraform apply
+  434  terraform apply
+  435  clear
+  436  ls -l
+  437  mv terraform.tfvars var.tfvars
+  438  ls -l
+  439  terrafor apply
+  440  terraform apply
+  441  clear
+  442  terraform apply -var-file="var.tfvars" 
+  443  terraform apply -var-file="var.tfvars" -var 'b=hello"
+  444  terraform apply -var-file="var.tfvars" 
+  445  clear
+  446  terraform apply -var-file="var.tfvars" 
+  447  terraform apply -var-file='var.tfvars' -var 'b=hello" 
+  448  terraform apply -var-file='var.tfvars' -var 'b=hello'
+  449  clear
+  450  ls -l
+  451  terraform apply -var-file='var.tfvars' -var 'list-var[a, b, c]'
+  452  terraform apply -var-file='var.tfvars' -var 'list-var=[a, b, c]'
+  453  terraform apply -var-file='var.tfvars' -var 'list-var=["a", "b", "c"]'
+  454  clear
+  455  terraform apply 
+  456  terraform apply 
+  457  terraform apply 
+  458  terraform apply 
+  459  terraform apply -var
+  460  terraform apply -var-file='var.tfvars' -var 'list-var=[10, 20, "c"]'
+  461  terraform apply -var-file='var.tfvars' -var 'list-var=[10, 20, c]'
+  462  terraform apply -var-file='var.tfvars' -var 'list-var=[10, 20, "c"]'
+  463  terraform apply 
+  464  terraform apply 
+  465  terraform apply 
+  466  clear
+  467  terraform apply
+  468  terraform apply
+  469  terraform apply
+  470  terraform apply
+  471  terraform apply
+  472  terraform apply
+  473  terraform apply
+  474  terraform apply
+  475  terraform apply
+  476  terraform apply
+  477  terraform destory
+  478  terraform apply
+  479  terraform destroy
+  480  clear
+  481  terraform apply
+  482  terraform apply
+  483  terraform apply
+  484  terraform apply
+  485  terraform apply
+  486  terraform apply
+  487  terraform apply
+  488  terraform apply
+  489  terraform apply
+  490  terraform apply
+  491  terraform apply
+  492  terraform apply
+  493  terraform apply
+  494  terraform apply
+  495  terraform apply
+  496  terraform apply
+  497  exit
+  498  ls
+  499  git config --global user.name "Santosh Mohapatra"
+  500  git config --global user.email "santoshm.cloud@gmail.com"
+  501  git config --global --list 
+  502  pwd
+  503  touch file1
+  504  ls
+  505  clear
+  506  git init
+  507  ls
+  508  ls -a
+  509  ls -la
+  510  touch file2 file3 file4
+  511  ls
+  512  clear
+  513  git status
+  514  ls
+  515  ls -la
+  516  clear
+  517  git status
+  518  git add Import.Json 
+  519  clear
+  520  git status
+  521  git add Vpc-SubNet.json VpcJson.json 
+  522  clear
+  523  git status
+  524  git add .
+  525  git status
+  526  git rm --cached Condition_1.Json Dependson.Json 
+  527  git status
+  528  git reset Sg.Json
+  529  git ststus
+  530  git status
+  531  git reset .
+  532  git status
+  533  git add Vpc-SubNet.json VpcJson.json 
+  534  git add Import.Json 
+  535  git status
+  536  git commit -m "1st Version"
+  537  git status
+  538  git add .
+  539  git status
+  540  git commit -m "2nd Version"
+  541  git ststus
+  542  git ls
+  543  ls
+  544  git ststus
+  545  git status
+  546  git log
+  547  history
+  548  clear
+  549  git log
+  550  git log --oneline
+  551  history
+  552  cat history > file1
+  553   history > file1
