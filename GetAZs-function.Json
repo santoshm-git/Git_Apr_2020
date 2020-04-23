@@ -1,0 +1,25 @@
+{
+    "Parameters":{
+		"myRegion":{
+			
+		}
+	},
+	"Resources" : {
+        "ec2Instance" : {
+            "Type": "AWS::EC2::Instance",
+			"Properties": {
+				"ImageId" : "ami-09a4a9ce71ff3f20b",
+				"InstanceType": "t2.micro",
+				"AvailabilityZones" : { "Fn::GetAZs" : { "Ref" : "AWS::Region" } }
+			}
+        }
+    },
+	"Outputs" :{
+		"InstanceName" :{
+			"Value" : {"Ref": "ec2Instance"}
+		}
+	}
+}
+
+
+

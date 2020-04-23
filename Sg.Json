@@ -1,0 +1,62 @@
+{
+  "Resources":
+  { 
+     "cfsg":
+	 {
+	   "Type":"AWS::EC2::SecurityGroup",
+	   "Properties":
+	   {
+	     "VpcId":"vpc-4d8c852a",
+		 "GroupDescription":"CFSGTEST",
+		 "GroupName":"SGCF",
+		 "SecurityGroupIngress":[
+		 {
+			"IpProtocol": "tcp",
+			"CidrIp": "100.10.0.10/20",
+			"FromPort": "22",
+			"ToPort": "22"
+		 },
+		 {
+			"IpProtocol": "tcp",
+			"CidrIp": "0.0.0.0/0",
+			"FromPort": "80",
+			"ToPort": "80"
+		 }
+		]
+
+	  }
+		  
+	   },
+	   "i1":
+	   {
+	     "Type": "AWS::EC2::Instance",
+		 "Properties": 
+		 {
+		    "ImageId":"ami-04a2d6660f1296314",
+			"InstanceType":"t2.micro",
+			"SecurityGroupIds":[{"Ref":"cfsg"}],
+			"UserData":{"Fn::Base64" :{"Fn::Join":["",["#!/bin/bash \n","apt-get update \n","apt-get install apache2 -y \n"]]}}
+		 }
+	   }
+	 },
+	"Outputs":
+    {
+	  "i1publicip":
+	  {
+	    "Value": {"Fn::GetAtt":["i1","PublicIp"]}
+	  },
+	  "i1prvIp":
+	  {
+	    "Value": {"Fn::GetAtt":["i1","PrivateIp"]}
+	  },
+	  "i1az":
+	  {
+	    "Value": {"Fn::GetAtt":["i1","AvailabilityZone"]}
+	  }
+	  
+    }	
+     
+  }
+  
+
+

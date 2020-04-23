@@ -1,0 +1,79 @@
+{
+  "Parameters":
+  {
+    "a":
+	{
+	  "Type":"String"
+	}
+  },
+  "Mappings":
+  {
+     "m1":  
+	 {
+	    "Course": 
+		{
+		  "Fac":"Sheshi",  
+		  "Name":"AWS",
+		  "Fee": "10k"
+		},
+		"Ins":
+		{
+		  "Name":"IntelliQ",
+		  "Location":"Ameerpet",
+		  "Phone":"9022883456"
+		}
+	 },
+     "m2":
+     {
+	    "Course":
+		{
+		  "Fac":"Sai",
+		  "Name":"Devops",
+		  "Fee": "10k"
+		},
+		"Ins":
+		{
+		  "Name":"IntelliQItTraings",
+		  "Location":"Ameerpet",
+		  "Phone":"9022883456"
+		}
+     }	 
+  },
+  "Resources":
+  {
+    "test1":
+	{
+	  "Type":"AWS::EC2::EIP"
+	}
+  },
+  "Outputs":
+  {
+    "val1":
+	{
+	
+    "Value":{ "Fn::FindInMap":["m1","Course","Fac"] }
+	},
+	"val2":
+	{
+	
+    "Value":{ "Fn::FindInMap":["m1","Ins","Location"] }
+	},
+	"val3":
+	{
+	
+    "Value":{ "Fn::FindInMap":["m2","Course","Name"] }
+	},
+	"aval":
+	{
+	  "Value":{"Ref":"a"}
+	},
+	"rval":
+	{
+	 "Value":{"Ref":"AWS::Region"}
+	},
+	"Sname":
+	{
+	  "Value":{"Ref":"AWS::StackName"}
+	}
+  }
+}

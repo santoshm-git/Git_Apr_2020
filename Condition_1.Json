@@ -1,0 +1,45 @@
+{
+  "Parameters":
+  {
+    "env":
+	{
+	  "Type": "String",
+	  "Description" : "Type Of Env",
+	  "AllowedValues":["dev","test","prod"]
+	  
+	}
+  },
+  "Conditions":
+  {
+    "c1":
+	{
+	  "Fn::Equals":[{"Ref":"env"},"prod"]
+	}
+  },
+  "Resources":
+  {  
+     "i1":
+	 {
+	   "Type": "AWS::EC2::Instance",
+	   "Properties":
+	   {
+	     "ImageId":"ami-09a4a9ce71ff3f20b",
+		 "InstanceType": "t2.micro"
+	   }
+	   
+	 },
+	 "myeip":
+	 {
+	   "Condition":"c1",
+	   "Type":"AWS::EC2::EIP",
+	   "Properties":
+	   {
+	     "InstanceId": {"Ref":"i1"}
+	   }
+	   
+	 }
+  }
+}
+
+
+
